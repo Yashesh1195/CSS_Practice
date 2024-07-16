@@ -1,0 +1,11 @@
+/* External CSS  */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    background-color: brown;
+    color: aquamarine;
+}

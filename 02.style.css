@@ -1,0 +1,106 @@
+/* Color Name */
+
+/* h1{
+    background-color: darkgoldenrod;
+    color: darkmagenta;
+}
+p{
+    background-color: darkgoldenrod;
+    color: darkmagenta;
+}
+button{
+    background-color: darkgoldenrod;
+    color: darkmagenta;
+} */
+
+/* RGB Values */
+
+/* h1{
+    background-color: rgb(33, 99, 200);
+    color: rgb(150, 150, 150);
+}
+p{
+    background-color: rgb(33, 99, 200);
+    color: rgb(150, 150, 150);
+}
+button{
+    background-color: rgb(33, 99, 200);
+    color: rgb(150, 150, 150);
+} */
+
+/* RGBA Values */
+
+/* h1{
+    background-color: rgba(33, 99, 200, .1);
+    color: rgba(150, 150, 150, 1.0);
+}
+p{
+    background-color: rgba(33, 99, 200, .1);
+    color: rgba(150, 150, 150, 1.0);
+}
+button{
+    background-color: rgba(33, 99, 200, .1);
+    color: rgba(150, 150, 150, 1.0);
+} */
+
+/* HSL Values */
+
+/* h1{
+    background-color: hsl(100deg, 34%, 70%);
+    color: hsl(270deg, 60%, 20%);
+}
+p{
+    background-color: hsl(100deg, 34%, 70%);
+    color: hsl(270deg, 60%, 20%);
+}
+button{
+    background-color: hsl(100deg, 34%, 70%);
+    color: hsl(270deg, 60%, 20%);
+} */
+
+/* HSLA Values */
+
+/* h1{
+    background-color: hsla(100deg, 34%, 70%, .2);
+    color: hsla(270deg, 60%, 20%, .8);
+}
+p{
+    background-color: hsla(100deg, 34%, 70%, .2);
+    color: hsla(270deg, 60%, 20%, .8);
+}
+button{
+    background-color: hsla(100deg, 34%, 70%, .2);
+    color: hsla(270deg, 60%, 20%, .8);
+} */
+
+/* Hexa Code */
+
+/* Long Hand */
+
+/* h1{
+    background-color: #09edab;
+    color: #ff06ab;
+}
+p{
+    background-color: #09edab;
+    color: #ff06ab;
+}
+button{
+    background-color: #09edab;
+    color: #ff06ab;
+} */
+
+/* Short Hand */
+
+h1{
+    background-color: #e9e;
+    color: #4ee;
+}
+p{
+    background-color: #e9e;
+    color: #4ee;
+}
+button{
+    background-color: #e9e;
+    color: #4ee;
+}
