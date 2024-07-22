@@ -1,0 +1,22 @@
+/* Q-1 */
+
+#box{
+    font-size: xx-large;
+    background-color: slateblue;
+}
+
+/* Q-2 */
+
+.heading{
+    background-color: blanchedalmond;
+    color: maroon;
+}
+
+/* Q-3 */
+
+button{
+    background-color: green;
+    color: antiquewhite;
+    padding: 30px;
+    font-size: larger;
+}

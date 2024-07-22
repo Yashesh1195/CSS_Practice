@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+div{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: blanchedalmond;
+    color: dodgerblue;
+}
+
+div>p:nth-child(1){
+    background-color: darkgreen;
+    color: rosybrown;
+}
+
+

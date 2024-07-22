@@ -1,0 +1,31 @@
+/* There are mainly 5 types of selectors */
+
+/* 1. Universal Selector */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: blanchedalmond;
+}
+
+/* 2. Element Selector */
+
+h1{
+    background-color: aquamarine;
+    color: crimson;
+}
+
+/* 3. Class Selector */
+
+.main1{
+    background-color: darkcyan;
+    color: indigo;
+}
+
+/* 4. ID Selector */
+
+#main2, #main3{
+    background-color: darkolivegreen;
+    color: darkred;
+}

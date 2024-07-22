@@ -1,0 +1,26 @@
+#demo{
+    background-color: cornflowerblue;
+    display: inline;
+}
+
+button{
+    margin-bottom: 30px;
+}
+
+#main>div{
+    margin: 15px;
+    height: 150px;
+    width: 150px;
+    background-color: darkseagreen;
+    border: 3px solid cornflowerblue;
+    /* display: inline; */
+    /* display: block; */
+    /* display: inline-block; */
+    /* display: none; */
+}
+
+#main3:hover{
+    /* display: none; */
+    visibility: hidden;
+}
+
