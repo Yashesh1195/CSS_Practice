@@ -1,0 +1,17 @@
+#main{
+    height: 400px;
+    width: 400px;
+    background-color: lightskyblue;
+    font-size: 20px;
+}
+
+#main1{
+    /* height: 50%;
+    width: 50%;
+    margin-left: 49%; */
+    height: 20vh;
+    width: 20vw;
+    background-color: darkslateblue;
+    border: 2px solid red;
+    font-size: 2em;
+}

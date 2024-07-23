@@ -1,0 +1,41 @@
+div{
+    height: 150px;
+    width: 150px;
+    background-color: cornflowerblue;
+    border: 3px solid coral;
+    display: inline-block;
+    font-size: 30px;
+    /* position: relative; */
+}
+
+#main1{
+    background-color: aqua;
+    position: static;
+}
+
+#main2{
+    background-color: darkorange;
+    position: relative;
+    top: 300px;
+    left: 200px;
+}
+
+#main3{
+    background-color: crimson;
+    position: absolute;
+    top: 533px;
+    left: 520px;
+}
+
+#main4{
+    background-color: sienna;
+    position: fixed;
+    top: 0;
+}
+
+#main5{
+    background-color: olive;
+    position: sticky;
+    top: 0;
+    left: 500px;
+}
