@@ -1,0 +1,42 @@
+div{
+    margin: 5px;
+    height: 125px;
+    width: 125px;
+}
+
+#main1{
+    position: relative;
+    top: 100px;
+    background-color: silver;
+    border: 3px solid black;
+}
+#main2{
+    position: relative;
+    top: 200px;
+    left: 100px;
+    background-color: plum;
+    border: 3px solid red;
+}
+#main3{
+    position: relative;
+    top: 250px;
+    left: 200px;
+    z-index: -10;
+    background-color: palegreen;
+    border: 3px solid darkgreen;
+}
+#main4{
+    position: relative;
+    top: 150px;
+    left: 300px;
+    z-index: 1;
+    background-color: cornflowerblue;
+    border: 3px solid darkblue;
+}
+#main5{
+    position: relative;
+    top: 150px;
+    left: 310px;
+    background-color: firebrick;
+    border: 3px solid darkorange;
+}

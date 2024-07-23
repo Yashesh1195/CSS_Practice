@@ -1,0 +1,24 @@
+div{
+    margin: 10px;
+    padding: 10px;
+    height: 450px;
+    width: 250px;
+    font-size: 20px;
+    font-weight: bolder;
+    display: inline-block;
+}
+
+#main1{
+    background-image: url(nature.jpeg);
+    background-size: cover;
+}
+#main2{
+    background-image: url(nature.jpeg);
+    background-repeat: unset;
+}
+#main3{
+    background-image: url(nature.jpeg);
+}
+#main4{
+    background-image: url(nature.jpeg);
+}
