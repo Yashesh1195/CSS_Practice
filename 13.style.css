@@ -1,0 +1,18 @@
+nav ul{
+    display: flex;
+}
+
+
+nav ul li{
+    /* list-style: lower-alpha; */
+    /* list-style: "🙂"; */
+    /* list-style-image: url(nature.jpeg);
+    list-style-position: inside; */
+
+    /* list-style: square  inside  url(nature.jpeg);
+    background-color: darkorange;
+    border: 5px solid black; */
+
+    padding: 25px;
+    list-style: none;
+}
