@@ -1,0 +1,44 @@
+/* Global Variable */
+
+:root{
+    --color: darkgreen;
+    --seccolor: rgb(100,255,100);
+    --thicolor: darkblue;
+    --defpad: 30px;
+    --defop: 0.4;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#nav{
+    /* background-color: rgb(100, 200, 255); */
+    background-color: var(--color);
+}
+
+ul{
+    display: flex;
+}
+
+ul li{
+    /* opacity: 0.5; */
+    opacity: var(--defop);
+    list-style: none;
+    /* padding: 20px; */
+    padding: var(--defpad);
+    border: 2px solid var(--thicolor); 
+}
+
+ul li:first-child{
+    /* Local Variable */
+    --color: rgb(211, 102, 18);
+    background-color: var(--color, blue);
+}
+
+#container{
+    /* background-color: rgb(100, 200, 230); */
+    background-color: var(--seccolor);
+}
