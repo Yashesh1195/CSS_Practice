@@ -1,0 +1,17 @@
+#main{
+    border: 5px solid black;
+    display: flow-root;
+}
+
+img{
+    /* float: left; */
+    float: left;
+}
+
+#main div{
+    border: 5px solid red;
+}
+
+#main2{
+    clear: left;
+}

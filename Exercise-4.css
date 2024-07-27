@@ -1,0 +1,30 @@
+:root{
+    --bgcolor: lightskyblue;
+    --color: darkred;
+    --textdec: none;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navbar{
+    height: 70px;
+    /* padding: 10px; */
+    background-color: var(--bgcolor);
+    display: flex;
+    justify-content: space-around;
+}
+
+#navbar div{
+    padding: 20px;
+    font-size: 23px;
+}
+
+a{
+
+    color: var(--color);
+    text-decoration: var(--textdec);
+}

@@ -1,0 +1,57 @@
+/* .box:first-child{
+    color: darkseagreen;
+}
+
+.box::first-line{
+    color: blueviolet;
+} */
+
+/* .boxes *{
+    color: red;
+    border: 4px solid black;
+}
+
+.box, p, a[data-color="primary"]{
+    margin-top: 50px;
+    padding-top: 20px;
+    color: orange;
+} */
+
+/* .box:nth-child(even){
+    background-color: blanchedalmond;
+} */
+
+/* .box:nth-child(even){
+    background-color: blanchedalmond;
+} */
+
+/* .box:nth-child(1){
+    background-color: blanchedalmond;
+} */
+
+/* .box:nth-last-child(1){
+    background-color: blanchedalmond;
+} */
+
+.boxes::before{
+    content: "Yashesh";
+}
+
+.boxes::after{
+    content: "Mehta";
+}
+
+::selection{
+    background-color: aquamarine;
+    color: lightslategrey;
+}
+
+.box::first-letter{
+    color: maroon;
+    font-size: 50px;
+}
+
+input::placeholder{
+    color: cornflowerblue;
+    /* font-size: 60px; */
+}
