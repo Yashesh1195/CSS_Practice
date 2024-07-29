@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#nav{
+    height: 70px;
+    background-color: coral;
+    position: sticky;
+    top: 0;
+}
+
+#section{
+    height: 630px;
+    background-color: burlywood;
+    display: flex;
+    padding: 30px;
+    justify-content: space-evenly;
+}
+
+#sec1{
+    height: 500px;
+    width: 500px;
+    background-color: crimson;
+}
+
+#sec2{
+    height: 500px;
+    width: 500px;
+    background-color: crimson;
+}
+
+#logo{
+    height: 50px;
+    width: 100px;
+    position: fixed;
+    right: 0;
+    top: 400px;
+}
+
+#content{
+    padding: 40px;
+    height: 300px;
+    background-color: cadetblue;
+    color: azure;
+    text-align: justify;
+    font-size: 20px;
+    line-height: 25px;
+    border-radius: 40px;
+}
+
+#footer{
+    height: 70px;
+    background-color: coral;
+}
+
