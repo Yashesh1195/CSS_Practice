@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#navbar{
+    height: 70px;
+    display: flex;
+}
+
+#navbar1{
+    width: 45%;
+}
+
+#nav1{
+    padding: 20px;
+}
+#nav1 img{
+    margin-left: 130px;
+    height: 60px;
+    width: 190px;
+}
+
+#navbar2{
+    /* padding: 25px; */
+    width: 55%;
+    font-size: large;
+    font-family: monospace;
+    display: flex;
+}
+
+#navbar2 div{
+    padding: 20px;
+    padding-top: 40px;
+}
+
+/* #nav7{
+    padding: 20px;
+} */
+#nav7 img{
+    height: 20px;
+    width: 30px;
+}
