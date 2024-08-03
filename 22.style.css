@@ -1,0 +1,38 @@
+/* div{
+    height: 100px;
+    width: 300px;
+    background-color: aqua;
+    border: 3px solid black; */
+    /* transition-property: all;
+    transition-duration: 3s; */
+    /* transition-timing-function: steps(5); */
+    /* transition-timing-function: ease-in;
+    transition-delay: 2s; */
+
+    /* transition: all 3s ease-in-out 0.2s;
+} */
+
+/* div:hover{
+    width: 100px;
+    font-size: 25px;
+    background-color: red;
+    color: azure;
+}
+
+div:active{
+    width: 300px;
+    font-size: initial;
+    background-color: pink;
+} */
+
+.container{
+    height: 40vh;
+    width: 50vw;
+    background-color: antiquewhite;
+}
+
+.box{
+    height: 4vh;
+    width: 5vw;
+    background-color: aquamarine;
+}
