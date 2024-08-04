@@ -34,5 +34,18 @@ div:active{
 .box{
     height: 4vh;
     width: 5vw;
-    background-color: aquamarine;
+    background-color: darkcyan;
+    /* transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: ease-in-out;
+    transition-timing-function: cubic-bezier(0.17, 0.73, 0.01, 1.15);
+    transition-delay: 1s; */
+    /* SHORTHAND */
+    /* transition: all 3s ease-in-out 0.5s; */
+    transition: all 3s cubic-bezier(0.11, 0.75, 0, 0.98) 0.5s;
+}
+
+.translate{
+    transform: translateX(10vw) translateY(10vh) scale(2);
+    background-color: chocolate;
 }
