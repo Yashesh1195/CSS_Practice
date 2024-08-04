@@ -1,31 +1,96 @@
-div{
+/* div{
     height: 100px;
     width: 100px;
     top: 150px;
     left: 200px;
     position: absolute;
     background-color: aqua;
-    border: 3px solid black;
+    border: 3px solid black; */
+
+    /* ROTATE */
+
     /* transform: rotate(70deg); */
     /* transform: rotateX(180deg); */
     /* transform: rotateY(80deg); */
     /* transform: rotateZ(40deg); */
-    /* transform: scale(1, 2); */
-    /* transform: scaleX(3);
-    transform: scaleY(3); */
-    transition: all 2s ease-in;
-}
 
-div:hover{
+    /* SCALE */
+
+    /* transform: scale(2); */
+    /* transform: scale(1, 2); */
+    /* transform: scale(2, 1); */
+    /* transform: scaleX(2); */
+    /* transform: scaleY(2); */
+    /* transition: all 2s ease-in;
+} */
+
+/* div:hover{
     font-size: 25px;
     background-color: red;
-    color: azure;
-    transform: rotate(360deg);
+    color: azure; */
+    /* transform: rotate(360deg); */
     /* transform: scale(2); */
-    /* transition-duration: 3s; */
-}
 
-div:active{
+    /* TRANSLATE */
+
+    /* transform: translateX(220px); */
+    /* transform: translateX(-100px); */
+    /* transform: translateY(220px); */
+    /* transform: translateY(-220px); */
+    /* transform: translate(200px, 300px); */
+
+    /* SKEW */
+    /* transition-duration: 3s; */
+
+    /* transform: skew(70deg);
+} */
+
+/* div:active{
     font-size: initial;
     background-color: pink;
+
+} */
+
+
+.container{
+    height: 80vh;
+    width: 100vw;
+    border: 3px solid purple;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box{
+    height: 100px;
+    width: 100px;
+    background-color: beige;
+    border: 3px solid black;
+    /* ROTATE */
+    /* transform: rotate(60deg); */
+    transform: rotate(0.5turn);
+    /* transform: rotateX(40deg); */
+    /* transform: rotateY(60deg); */
+    /* transform: rotateZ(60deg); */
+
+    /* SCALE */
+    /* transform: scale(2,3); */
+    /* transform: scaleX(2); */
+    /* transform: scaleY(2); */
+
+    /* SKEW */
+    /* transform: skew(30deg); */
+    /* transform: skewX(30deg); */
+    /* transform: skewY(20deg); */
+
+    /* TRANSLATE */
+    /* transform: translate(40px); */
+    /* transform: translateX(40px); */
+    /* transform: translateY(40px); */
+    /* transform: translate(30%); */
+
+    /* transform: rotate(30deg) translate(150px) scale(2) skew(20deg); */
+
+    /* TRANSFORM ORIGIN */
+    transform-origin: -292% -60%;
 }
