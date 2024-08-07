@@ -1,11 +1,11 @@
-div{
+/* div{
     height: 100px;
     width: 100px;
     top: 100px;
     left: 100px;
     position: absolute;
     background-color: brown;
-    border: 3px solid black;
+    border: 3px solid black; */
     /* border-radius: 50%; */
     /* animation-name: color_animate;
     animation-timing-function: ease;
@@ -17,8 +17,8 @@ div{
     /* animation-direction: alternate; */
     /* animation-direction: alternate-reverse; */
     /* Shorthand */
-    animation: color_animate 3s linear 1s infinite normal;
-}
+    /* animation: color_animate 3s linear 1s infinite normal;
+} */
 
 /* @keyframes color_animate {
     from{
@@ -31,7 +31,7 @@ div{
     }
 } */
 
-@keyframes color_animate {
+/* @keyframes color_animate {
     0% {
         left: 0px;
         background-color: brown;
@@ -53,5 +53,20 @@ div{
         left: 600px;
         background-color: cyan;
     }
+} */
+
+.container{
+    height: 80vh;
+    width: 30vw;
+    background-color: darkcyan;
 }
 
+.box{
+    height: 45px;
+    width: 35px;
+    background-color: aqua;
+}
+
+@keyframes animate {
+    
+}
