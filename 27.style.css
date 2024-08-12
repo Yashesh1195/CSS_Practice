@@ -1,0 +1,20 @@
+img{
+    height: 300px;
+    /* filter: blur(0px); */
+}
+
+#img1{
+    filter: brightness(300%) contrast(200%);
+}
+
+#img2{
+    margin-top: 40px;
+    margin-right: 40px;
+    /* margin-bottom: 40px; */
+    margin-left: 40px;
+    filter: drop-shadow(10px 10px 10px black);
+}
+
+#img3{
+    filter: grayscale(100%);
+}

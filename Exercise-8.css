@@ -1,0 +1,82 @@
+.container{
+    position: relative;
+    height: 685px;
+    width: 1520px;
+    background-color: coral;
+}
+
+.ball{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 100px;
+    width: 100px;
+    background-color: cornflowerblue;
+    border-radius: 50%;
+    animation: animateX 3s linear infinite, animateY 1s ease-out infinite alternate;
+}
+
+@keyframes animateY {
+    from{
+        bottom: 0;
+    }
+    to{
+        position: absolute;
+        bottom: 83vh;
+    }
+}
+
+@keyframes animateX {
+    from{
+        left: 0;
+    }
+    to{
+        position: absolute;
+        left: 92vw;
+    }
+}
+
+/* @keyframes animateY {
+    0%{
+        bottom: 0;
+    }
+    25%{
+        position: absolute;
+        bottom: 83vh;
+    }
+    50%{
+        position: absolute;
+        bottom: 0;
+    }
+    75%{
+        position: absolute;
+        bottom: 60vh;
+    }
+    100%{
+        position: absolute;
+        bottom: 0;
+    }
+}
+
+@keyframes animateX {
+    0%{
+        position: absolute;
+        left: 0;
+    }
+    25%{
+        position: absolute;
+        left: 380px;
+    }
+    50%{
+        position: absolute;
+        left: 760px;
+    }
+    75%{
+        position: absolute;
+        left: 1140;
+    }
+    100%{
+        position: absolute;
+        left: 1400px;
+    }
+} */

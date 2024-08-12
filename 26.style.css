@@ -1,0 +1,27 @@
+.container{
+    height: 400px;
+    width: 400px;
+    /* background-color: azure; */
+    border: 2px solid black;
+    background-image: url(nature.jpeg);
+    background-position: center center;
+    background-repeat: round;
+    background-clip: border-box;
+}
+
+img{
+    height: 400px;
+    width: 400px;
+
+    /* object-fit: scale-down; */
+
+    /* object-fit: fill; */
+
+    /* object-fit: cover; */
+    object-fit: contain;
+    object-position: 50% 50%;
+    /* object-position: 10px 20px; */
+    /* object-position: top left; */
+    
+    /* object-fit: contain; */
+}
