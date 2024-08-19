@@ -1,5 +1,5 @@
 img{
-    height: 300px;
+    height: 350px;
     /* filter: blur(0px); */
 }
 
@@ -12,9 +12,14 @@ img{
     margin-right: 40px;
     /* margin-bottom: 40px; */
     margin-left: 40px;
-    filter: drop-shadow(10px 10px 10px black);
+    /* filter: drop-shadow(10px 10px 10px black); */
+    filter: opacity(30%);
 }
 
 #img3{
-    filter: grayscale(100%);
+    /* filter: grayscale(100%); */
+    /* filter: sepia(100%); */
+    /* filter: hue-rotate(200deg); */
+    /* filter: drop-shadow(16px 16px 100px red); */
+    filter: invert(300%);
 }
